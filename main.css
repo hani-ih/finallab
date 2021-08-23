@@ -1,0 +1,637 @@
+@import url('https://fonts.googleapis.com/css2?family=Abel&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@1,600&display=swap');
+body{
+    margin: 0;
+    width:100%;
+}
+
+/* Menu button */
+.top_menu{
+    display:flex;
+    align-items:center;
+    padding-top:7px;
+    /*border-style:solid;*/
+    height:30px;
+}
+
+.top_menu_mobile img{
+    display:none;
+}
+
+.text_logo{
+    font-family: Abel;
+    font-size:25px;
+    font-weight: bolder;
+    margin-left:20px;
+    margin-bottom:20px;
+    margin-right:700px;
+    text-decoration: 5px underline;
+    letter-spacing: 5px;
+    
+}
+
+.menu a{
+    font-size:18px;
+    text-decoration: none;
+    margin-right: 20px;
+    padding:10px;
+    color:black;
+    font-family:Poppins;
+    left:300px;
+}
+
+.menu a:hover{
+    color:pink;
+}
+
+
+/* Top banner */
+.top_banner{
+    background-image: url("/krave_bg.jpg"); 
+    background-repeat:no-repeat;
+    background-size:cover;
+    height:700px;
+    width:1350px;   
+    margin-left:7px;                                                                                                           
+}
+
+
+.text_banner{
+    background-color: transparent;
+    width:400px;
+    height:350px;
+    text-align:center;
+    position:relative;
+    left:50px;
+    top:50px;
+}
+
+.text_banner h1{
+    font-family: Urbanist;
+    font-size:40px;
+    font-weight:600;
+    font-style: italic;
+    color:rgb(56, 56, 56);
+    padding-top:20px;
+    text-transform: uppercase;
+    margin-bottom:30px;
+}
+
+.text_banner p{
+    font-family: Abel;
+    font-size:20px;
+    font-family: Poppins;
+    color:rgb(55, 55, 55);
+    padding:10px;
+}
+
+.text_banner button{
+    font-family: Poppins;
+    width:200px;
+    height:30px;
+    font-size:20px;
+    padding-bottom: 30px;
+    margin-bottom:10px;
+    background-color:rgb(238, 168, 168);
+    border:transparent;
+    color:white;
+}
+
+.mobile_text_banner{
+    display:none;
+
+}
+/*Founder Section*/
+.second_container{
+    border-style:dotted;
+    border-color:rgb(238, 168, 168);
+    height:500px;
+}
+
+.founder h1{
+    font-size:35px;
+    margin-left:170px;
+    font-family: Poppins;
+    color:rgb(56, 56, 56);
+}
+
+.content{
+    display:flex;
+}
+
+.content img{
+    margin-left:150px;
+}
+
+.f_content{
+    /*border-style:solid;*/
+    width:600px;
+    margin-left:100px;
+    font-size:20px;
+    text-align: justify;
+    letter-spacing: 3px;
+    margin-top:50px;
+    font-family: Poppins;
+}
+
+/*Testimonial Section*/
+
+.testimonial{
+    font-size:25px;
+    text-align:center;
+    font-family: Poppins;
+    color:rgb(56, 56, 56);
+}
+
+.test_flex{
+    display:flex;
+    align-items:center;
+    justify-content: space-around;
+}
+
+.test{ 
+    background-color:rgb(255, 249, 196);
+    width:350px;
+    height:250px;
+    font-size:20px;
+    font-family:Poppins;
+    color:rgb(56, 56, 56);
+    text-align:center;
+}
+
+.test p{
+    margin-top:70px;
+    font-style:italic;
+}
+
+.third_container{
+    padding-bottom:50px;
+}
+
+.copyright{
+    background-color:rgb(60, 60, 60);
+    color:white;
+    font-family:Poppins;
+    height:30px;
+    text-align:center;
+    font-size:15px;  
+}
+
+/*About page*/
+.about{
+    padding:20px;
+    font-family:Poppins;
+    /*border-style:solid;*/
+    width:700px;
+    margin-left:300px;
+}
+
+.about h1{
+    font-size: 20px;
+    text-align:center;
+    margin-bottom:30px;
+    text-transform: uppercase;
+}
+
+.about p{
+    font-size:16px;
+    text-align:justify;
+}
+
+.about_pic{
+    text-align:center;
+    padding:20px;
+}
+
+.who_krave{
+    padding:20px;
+    font-family:Poppins;
+    /*border-style:solid;*/
+    width:700px;
+    margin-left:300px;
+}
+
+/*Shop Product Page*/
+.p_banner{
+    background-image: url(/krave_productbanner.jpg);
+    height:400px;
+    background-repeat: no-repeat;
+    background-size:cover;
+    margin-top:30px;
+}
+
+.banner_content{
+    color:black;
+    font-weight:bold;
+    background-color: transparent;
+    width:400px;
+    height:220px;
+    font-family:Poppins;
+    position:relative;
+    top:120px;
+    left:70px;
+    padding:30px;
+}
+
+.banner_content p{
+    text-align:justify;
+}
+
+/*Product*/
+
+.middle_content{
+    font-family:Poppins;
+    font-size:20px;
+    padding-top:40px;
+    text-align: center;
+}
+
+.middle_content p{
+    font-size:15px;
+    margin-bottom:30px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 5px;
+    grid-gap: 50px;
+    margin-bottom:50px;
+    justify-content: center;
+}
+
+.grid-item {
+    background-color: rgba(250, 250, 250, 0.8);
+    border: 1px dotted rgba(209, 114, 114, 0.8);
+    width: 320px;
+    height: 400px;
+    padding: 20px;
+    font-family: Poppins;
+    text-align: center;
+}
+
+.grid-item h4{
+    font-weight:bold;
+    font-size: 18px;
+}
+
+.grid-item p{
+    font-size:15px;
+    margin-top:0;
+}
+
+.grid-item button{
+    background: rgb(255, 185, 185);
+    border:none;
+    color: white;
+    font-size:15px;
+    font-family:Poppins;
+    width:200px;
+    height:30px;
+}
+
+.grid-item button:hover{
+    color:rgb(87, 87, 87);
+}
+
+.grid-container1{
+    display: grid;
+    grid-template-columns: auto auto;
+    padding: 5px;
+    margin-bottom:50px;
+    justify-content: center;
+}
+
+.grid-item1{
+    background-color: rgba(250, 250, 250, 0.8);
+    border: 1px dotted rgba(209, 114, 114, 0.8);
+    width: 300px;
+    height: 400px;
+    padding: 20px;
+    margin-left:50px;
+    font-family: Poppins;
+    text-align: center;
+}
+
+.grid-item1 button{
+    background: rgb(255, 185, 185);
+    border:none;
+    color: white;
+    font-size:15px;
+    font-family:Poppins;
+    width:200px;
+    height:30px;
+}
+
+.grid-item1 button:hover{
+    color:rgb(87, 87, 87);
+}
+
+/*--------Contact Us Page------------*/
+.header_contact{
+    background-color: rgb(247, 247, 157);
+    width:500px;
+    height: 100px;
+    margin-left:450px;
+    margin-top:30px;
+    margin-bottom:30px;
+    border-style:dotted;
+    border-color:pink;
+}
+
+.header_contact h2{
+    font-family:Poppins;
+    font-size: 18px;
+    color:rgb(46, 46, 46);
+    text-align:center;
+    margin-top:10px;
+}
+
+.contact{
+    position:relative;
+    top: 80%;
+    left: 37%;
+    max-width: 400px;
+    width:100%;
+    height:400px;
+    background:rgb(255, 225, 225);
+    border-radius:5px;
+    box-shadow: 4px 4px 2px rgb(236, 187, 187);
+    font-family:Poppins;
+}
+
+.contact h2{
+    text-align: center;
+    padding:10px;
+    margin-bottom: 10px;
+    letter-spacing: 3px;
+    color: #616163;
+    text-transform: uppercase;
+}
+
+.contact .input_field{
+    margin-bottom: 10px;
+}
+
+.contact .input_field input[type="text"],
+.contact textarea{
+    width: 350px;
+    border: 1px solid #d0c2c2;
+    padding:10px;
+    margin-left:15px;
+    font-family: Poppins;
+}
+
+.contact textarea{
+    height: 80px;
+    resize: none;
+}
+
+.contact .btn input[type="submit"]{
+    border:0;
+    margin-top: 5px;
+    padding:10px;
+    width: 300px;
+    background:rgb(253 172 172);
+    color: white;
+    text-transform: uppercase;
+    letter-spacing:  5px;
+    font-weight: bold;
+    border-radius: 20px;
+    cursor: pointer;
+    margin-left: 50px;
+
+}
+
+.contact #error_message{
+    margin-bottom: 20px;
+    padding: 0;
+    background:rgb(90, 79, 82);
+    text-align: center;
+    font-size: 13px;
+    color:white;
+    transition: all 0.5s ease;
+}
+
+
+@media screen and (max-width: 450px){
+
+    /*------------Homepage*---------*/
+    .text_logo{
+        font-size:13px;
+        margin-right:0;
+    }
+ 
+    .menu a{
+        display:none;
+    }
+
+    .top_menu{
+        justify-content: space-between;
+    }
+
+    .top_menu_mobile img{
+        display:block;
+        width:20px;
+        height:20px;
+        margin-right:30px;
+    }
+
+    .top_banner{
+        width:100%;
+        background-size:cover;
+        height:250px;
+        margin-left:0;
+    }
+
+    .text_banner{
+        width:150px;
+        height: 100px;
+        top:30px;
+        left:15px;
+    }
+
+    .text_banner h1{
+        font-size:20px;
+        margin-bottom:0;
+    }
+
+    .text_banner p{
+        display:none;
+    }
+
+    .mobile_text_banner{
+        display:block;
+        font-size:10px;
+        color:#272727;
+        font-family:Poppins;
+        letter-spacing:3px;
+    }
+
+    .text_banner button{
+        font-size:10px;
+        width:100px;
+        height: 20px;
+        text-align:center;
+        margin-top:0;
+        padding:0;
+    }
+
+    /*Founder*/
+    .second_container{
+        border-style: none;
+         height: 400px;
+   }
+
+    .founder{
+        padding: 10px;
+        text-align:center;
+    }
+    
+    .founder h1{
+    font-size: 15px;
+    margin-left: 0;
+    }
+    
+    .content{
+        display:flex;
+        flex-direction:column;
+        align-items:center;
+    }
+
+    .content img{
+        width: 150px;
+        height: 150px;
+        margin-left:0;
+    }
+
+    .f_content{
+        font-size: 10px;
+        width: 280px;
+        margin-top: 20px;
+        padding: 10px;
+        margin-left:5px;
+    }
+
+    /*Testimonial section*/
+    .testimonial h1{
+        font-size:15px;
+        margin-top:40px;
+    }
+
+    .test_flex{
+        display:flex;
+        flex-direction:column;
+    }
+
+    .test{
+        width:250px;
+        height:150px;
+        padding:15px;
+        margin-bottom:20px;
+
+    }
+
+    .test p{
+        font-size:15px;
+        margin-top:35px;
+    }
+
+    .copyright p{
+        font-size:10px;
+        padding:5px;
+    }
+
+    /*---------About page--------*/
+
+    .about{
+        display:flex;
+        align-items:center;
+        flex-direction:column;
+        width:auto;
+        margin:auto;
+        padding: 15px 15px;
+    }
+
+    .about h1{
+        font-size: 15px;
+        text-align: center;
+        margin-bottom: 30px;
+        text-transform: uppercase;
+    }
+
+    .about p{
+        font-size: 13px;
+        text-align: justify;
+        margin-top: 3px;
+    }
+
+    .about_pic{
+        padding:0;
+    }
+
+    .p_banner{
+        height:230px;
+        margin-top:5px;
+        width:400px;
+    }
+
+    .banner_content p{
+        font-size:8px;
+        width: 200px;
+        margin-top: 40px;
+    }
+
+    .banner_content{
+        width: auto;
+        height: auto;
+        top: 18px;
+        left: 0;
+        padding: 10px;
+    }
+
+    .middle_content{
+        font-size: 10px;
+       padding-top: 5px;
+    }
+
+    .grid-container{
+        grid-template-columns: none;
+        margin-left:30px;
+    }
+
+    .grid-container1{
+        grid-template-columns: none;
+        grid-gap:50px;
+    }
+
+    .header_contact{
+        width:300px;
+        margin-left:5px;
+    }
+
+    .header_contact h2{
+        font-size:15px;
+    }
+
+    .contact{
+        left: 3%;
+        width: 300px;
+        margin-bottom: 50px;
+
+    }
+
+    .contact .input_field input[type="text"], 
+    .contact textarea{
+        width:250px;
+    }
+
+    .contact .btn input[type="submit"]{
+        width: 250px;
+        margin-left: 25px;
+    }
+
+}
